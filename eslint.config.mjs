@@ -1,5 +1,5 @@
-import node from 'hovi-sadang/eslint-config/node'
-import typescript from 'hovi-sadang/eslint-config/typescript'
+import node from '@hovi-sadang/eslint-config/node'
+import typescript from '@hovi-sadang/eslint-config/typescript'
 
 export default [
     {

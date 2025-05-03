@@ -21,8 +21,8 @@
     "devDependencies": {
         "@changesets/cli": "^2.27.12",
         "@naverpay/pite": "^2.1.0",
-        "hovi-sadang/eslint-config": "workspace:^",
-        "hovi-sadang/prettier-config": "workspace:^",
+        "@hovi-sadang/eslint-config": "workspace:^",
+        "@hovi-sadang/prettier-config": "workspace:^",
         "@vitejs/plugin-react": "^4.4.1",
         "builtin-modules": "^4.0.0",
         "prettier": "^3.2.5",

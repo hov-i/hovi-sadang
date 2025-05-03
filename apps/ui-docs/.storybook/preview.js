@@ -1,4 +1,4 @@
-import _ from '../node_modules/hovi-sadang/ui/dist/styles/design-system.scss'
+import _ from '../node_modules/@hovi-sadang/ui/dist/styles/design-system.scss'
 
 console.log('_', _)
 

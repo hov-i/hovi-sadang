@@ -1,5 +1,5 @@
 {
-    "extends": "hovi-sadang/tsconfig/base.json",
+    "extends": "@hovi-sadang/tsconfig/base.json",
     "compilerOptions": {
         "baseUrl": "."
     },

@@ -11,6 +11,12 @@ importers:
       '@changesets/cli':
         specifier: ^2.27.12
         version: 2.27.12
+      '@hovi-sadang/eslint-config':
+        specifier: workspace:^
+        version: link:packages/eslint-config
+      '@hovi-sadang/prettier-config':
+        specifier: workspace:^
+        version: link:packages/prettier-config
       '@naverpay/pite':
         specifier: ^2.1.0
         version: 2.1.0(@babel/core@7.26.10)(@types/babel__core@7.20.5)(rollup@4.40.0)(tsup@8.4.0(@microsoft/api-extractor@7.52.5(@types/node@20.17.14))(@swc/core@1.10.7)(postcss@8.5.3)(typescript@5.7.3))(typescript@5.7.3)(vite@6.3.3(@types/node@20.17.14)(sass-embedded@1.87.0)(sass@1.83.4)(terser@5.37.0))
@@ -20,12 +26,6 @@ importers:
       builtin-modules:
         specifier: ^4.0.0
         version: 4.0.0
-      hovi-sadang/eslint-config:
-        specifier: workspace:^
-        version: link:packages/eslint-config
-      hovi-sadang/prettier-config:
-        specifier: workspace:^
-        version: link:packages/prettier-config
       prettier:
         specifier: ^3.2.5
         version: 3.4.2
@@ -50,6 +50,12 @@ importers:
 
   apps/ui-docs:
     devDependencies:
+      '@hovi-sadang/tsconfig':
+        specifier: workspace:^
+        version: link:../../packages/tsconfig
+      '@hovi-sadang/ui':
+        specifier: workspace:^
+        version: link:../../packages/ui
       '@storybook/addon-essentials':
         specifier: ^8.1.6
         version: 8.5.0(@types/react@18.3.18)(storybook@8.5.0(prettier@3.4.2))
@@ -89,12 +95,6 @@ importers:
       css-loader:
         specifier: ^5.2.6
         version: 5.2.7(webpack@5.97.1(@swc/core@1.10.7)(esbuild@0.24.2))
-      hovi-sadang/tsconfig:
-        specifier: workspace:^
-        version: link:../../packages/tsconfig
-      hovi-sadang/ui:
-        specifier: workspace:^
-        version: link:../../packages/ui
       postcss:
         specifier: ^8.4.31
         version: 8.5.1
@@ -207,15 +207,15 @@ importers:
         specifier: '>=18'
         version: 18.3.1(react@18.3.1)
     devDependencies:
+      '@hovi-sadang/tsconfig':
+        specifier: workspace:^
+        version: link:../tsconfig
       '@types/react':
         specifier: ^18.2.28
         version: 18.3.18
       '@types/react-dom':
         specifier: ^18.2.13
         version: 18.3.5(@types/react@18.3.18)
-      hovi-sadang/tsconfig:
-        specifier: workspace:^
-        version: link:../tsconfig
 
 packages:
 
