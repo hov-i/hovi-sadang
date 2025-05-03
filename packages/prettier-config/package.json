@@ -2,6 +2,7 @@
     "name": "@hovi-sadang/prettier-config",
     "version": "0.0.0",
     "description": "",
+    "type": "module",
     "main": "index.json",
     "scripts": {
         "version": "pnpm version",
