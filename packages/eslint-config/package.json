@@ -2,6 +2,7 @@
     "name": "@hovi-sadang/eslint-config",
     "version": "0.0.0",
     "description": "",
+    "type": "module",
     "main": "./dist/index.js",
     "exports": {
         "./react": "./react/index.js",
