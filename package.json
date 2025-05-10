@@ -5,6 +5,7 @@
         "type": "git",
         "url": "<github url>"
     },
+    "private": true,
     "description": "",
     "scripts": {
         "build": "turbo build",
